@@ -7,7 +7,7 @@ import Footer from "../global/Footer";
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Home AlmostCode"
+      ? "AlmostCode"
       : `${currentPage} - AlmostCode`
   }`;
   console.log(currentPage);
